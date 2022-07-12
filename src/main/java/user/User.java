@@ -13,6 +13,10 @@ public class User {
         return age;
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return "User{" +
